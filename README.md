@@ -9,5 +9,6 @@ that I can be a more productive programmer
 <li>Line numbers</li>
 <li>intellegent case searching</li>
 <li>removing default highlightin of search results</li>
-<li></li>
+<li>Set the spaces for tab character to 2 instead of 8</li>
+<li>Set the 'shift width' to be the same as the new tab indentation</li>
 </ul>
