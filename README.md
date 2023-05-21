@@ -8,7 +8,8 @@ that I can be a more productive programmer
 <ul>
 <li>Line numbers</li>
 <li>intellegent case searching</li>
-<li>removing default highlightin of search results</li>
-<li>Set the spaces for tab character to 2 instead of 8</li>
-<li>Set the 'shift width' to be the same as the new tab indentation</li>
+<li>disabled default highlighting of search results</li>
+<li>custom tab spacing</li>
+<li>custon indentation</li>
+<li>Lazy.nvim package manager</li>
 </ul>
