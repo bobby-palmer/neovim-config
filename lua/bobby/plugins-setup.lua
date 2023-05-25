@@ -41,8 +41,11 @@ return require('packer').startup(function(use)
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
   use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 
-    -- file explorer
+  -- file explorer
   use("nvim-tree/nvim-tree.lua")
+
+  --adding vscode icons
+  use("nvim-tree/nvim-web-devicons")
 
 
   if packer_bootstrap then
