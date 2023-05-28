@@ -50,6 +50,9 @@ return require('packer').startup(function(use)
     -- commenting with gc
   use("numToStr/Comment.nvim")
 
+    -- statusline
+  use("nvim-lualine/lualine.nvim")
+
   if packer_bootstrap then
     require('packer').sync()
   end
