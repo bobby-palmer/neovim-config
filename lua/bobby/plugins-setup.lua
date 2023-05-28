@@ -63,6 +63,15 @@ return require('packer').startup(function(use)
 
   -- configuring lsp servers
   use("neovim/nvim-lspconfig") -- easily configure language servers
+  use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
+  use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+  use({
+    "glepnir/lspsaga.nvim",
+    branch = "main",
+    requires = {
+      { "nvim-tree/nvim-web-devicons" },
+    },
+  }) -- enhanced lsp uis
 
   -- autocompletion
   use("hrsh7th/nvim-cmp") -- completion plugin
@@ -73,6 +82,7 @@ return require('packer').startup(function(use)
   use("L3MON4D3/LuaSnip") -- snippet engine
   use("saadparwaiz1/cmp_luasnip") -- for autocompletion
   use("rafamadriz/friendly-snippets") -- useful snippets
+
 
   if packer_bootstrap then
     require('packer').sync()
