@@ -47,6 +47,8 @@ return require('packer').startup(function(use)
   --adding vscode icons
   use("nvim-tree/nvim-web-devicons")
 
+    -- commenting with gc
+  use("numToStr/Comment.nvim")
 
   if packer_bootstrap then
     require('packer').sync()
