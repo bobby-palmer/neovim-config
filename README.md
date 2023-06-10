@@ -5,6 +5,7 @@ that I can be a more productive programmer.
 ## features
 - LSP configuration
   - Python
+  - Rust
 -  git integration
 -  fuzzy finder (telescope)
 -  treesitter
