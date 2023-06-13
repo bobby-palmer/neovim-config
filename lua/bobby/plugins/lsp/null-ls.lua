@@ -14,7 +14,8 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 null_ls.setup({
   sources = {
-    diagnostics.flake8
+    diagnostics.flake8,
+    formatting.rustfmt,
   },
   -- configure format on save
   on_attach = function(current_client, bufnr)

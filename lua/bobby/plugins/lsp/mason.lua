@@ -34,6 +34,7 @@ mason_null_ls.setup({
   -- list of formatters & linters for mason to install
   ensure_installed = {
     "flake8", -- python linter/formatter 
+    "rustfmt", -- rust formatter
   },
   -- auto-install configured formatters & linters (with null-ls)
   automatic_installation = true,
