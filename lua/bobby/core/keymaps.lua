@@ -12,9 +12,6 @@ keymap.set("n", "<leader>to", ":tabnew<CR>")
 
 keymap.set("n", "<leader>tx", ":tabclose<CR>")
 
---not copying for deleting single character
-keymap.set("n", "x", '"_x"')
-
 --using nvim tree plugin
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
