@@ -105,6 +105,12 @@ return require('packer').startup(function(use)
  -- git integration
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+  -- add custom start up screen
+  use ({
+    "startup-nvim/startup.nvim",
+    requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+  })
+
   if packer_bootstrap then
     require('packer').sync()
   end
